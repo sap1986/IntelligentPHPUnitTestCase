@@ -1,0 +1,16 @@
+{
+    "name": "sap1986/intelligent-php-unit-test-case",
+    "description": "Intelligent wrapper for intelligent-php-unit-test-case",
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.38"
+    },
+    "autoload": {
+        "psr-4": {
+            "IntelligentTestCase\\": "src"
+        }
+    }
+}
